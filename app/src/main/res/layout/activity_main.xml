@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".LoginActivity"
+    android:background="@drawable/bg">
+
+    <EditText
+        android:id="@+id/login_email"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_margin="8dp"
+        android:background="#EDE276"
+        android:hint="email"
+        android:textColor="#050000"/>
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_margin="8dp"
+        android:background="#EDE276"
+        android:hint="password"/>
+
+
+    <TextView
+        android:id="@+id/login_singup"
+        android:layout_width="294dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="8dp"
+        android:background="#EDE276"
+        android:text="signUp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:background="#B7DA78"
+        android:id="@+id/login_success"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_margin="8dp"
+        android:layout_gravity="center"
+        android:text="login" />
+
+    <ImageView
+        android:id="@+id/img_v1"
+        android:layout_width="200dp"
+        android:layout_height="262dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/signpeng_1" />
+
+    <Button
+        android:background="#F3E03B"
+        android:id="@+id/btn_startApp"
+        android:text="app start"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="40dp"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AppFirstActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bg2">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:text="펭수 사진 보기"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:background="#EDA9A9"
+        android:fontFamily="@font/fontdu"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:text="펭수 mp3"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:background="#A5F4C8"
+        android:fontFamily="@font/fontdu"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:text="펭수 미니게임"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:background="#92F8FB"
+        android:fontFamily="@font/fontdu"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:text="펭수 스케줄 저장"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:background="#DEC8FA"
+        android:fontFamily="@font/fontdu"
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:text="종료하기"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="#E4E3A8"
+        android:fontFamily="@font/fontdu"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>

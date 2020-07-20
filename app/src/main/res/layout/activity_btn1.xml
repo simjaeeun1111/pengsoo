@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 펭수사진보기"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textColor="#24ffffff"
+        />
+
+
+    <Gallery
+        android:id="@+id/gallery1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spacing="20dp"
+        android:unselectedAlpha="0.2"
+        />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/abc_btn_radio_to_on_mtrl_000" />
+
+
+
+
+</LinearLayout>
